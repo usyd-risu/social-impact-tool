@@ -7,6 +7,10 @@ body {
   grid-gap: 1em;
 
 }
+header
+{
+  padding: 0.5em;
+}
 
 header,
 results,
@@ -53,7 +57,6 @@ two,
 three,
 footer {
 
-  background: #EDF1FF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,22 +66,37 @@ footer {
 header,
 footer {
   height: 10vw;;
+  background: #363636;
 }
-
+footer {
+ padding: 20px;
+}
 results
 {
-  background: #EDF1FF;
   display: flex;
   align-items: start;
   justify-content: center;
-
-
+  padding: 8px
 
 }
-div
-{padding: 8px}
+  one,
+  two,
+  three
+{
+  background:#EB4326
+}
 
-body
+div
+{
+  padding: 8px
+}
+
+div
 {
   font-family: Arial, Verdana, sans-serif;
+}
+p
+{
+  background: #ebeced;
+  padding: 50px;
 }
